@@ -719,3 +719,8 @@ contact {
 section {
   background-image: radial-gradient(rgba(30, 4, 46, 0.747), rgb(8, 8, 8));
 }
+
+/* Fixing Navbar go to rightside page*/
+body{
+  overflow-x: hidden;
+}
