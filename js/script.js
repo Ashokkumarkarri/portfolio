@@ -53,7 +53,7 @@ ScrollReveal().reveal(".home-img, .portfolio-box, .contact form", {
 });
 ScrollReveal().reveal(
   ".home-content, h4, h3, h1, p, .social-media, .btn-resume",
-  { orgin: "left" }
+  { origin: "left" }
 );
 ScrollReveal().reveal(".skills-container", { origin: "right" });
 
