@@ -724,7 +724,11 @@ section {
 body{
   overflow-x: hidden;
 }
-/* Fixing homesection not showing first in small screens */
-#home{
-  height: 100vh;
+/* Very-SMALL-devices Only fixing profile-image -align-center */
+/* 460px*/
+/* realme3pro-width(350px) and blackshark2-width(400px)*/
+@media (max-width: 460px) {
+  .home-img img {
+    width: 100%;
+  }
 }
